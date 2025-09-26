@@ -2,5 +2,5 @@
 trailingComma: 'es5'
 tabWidth: 2
 semi: true
-singleQuote: false
+singleQuote: true
 printWidth: 140 # for small font and not messy code, but for react set it to 80
