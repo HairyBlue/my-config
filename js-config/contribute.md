@@ -11,6 +11,17 @@ This are the branch
 - `features/<branch-name>`
    > Only use if you are a Author or Co-author use for major changes / breaking changes
 
+> [!IMPORTANT]  
+> Key detail to pay attention to
+- `dev`
+   > Branch to use for Dev Environment
+
+- `beta`
+   > Branch to use for Beta Environment
+
+- `production`
+   > Branch to use for Production Environment
+
 
 ## Before Commiting
 
