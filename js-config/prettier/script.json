@@ -1,0 +1,4 @@
+{
+   "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+   "format:watch": "onchange \"src/**/*.ts\" \"test/**/*.ts\" -- prettier --write --ignore-unknown {{changed}}"
+}
