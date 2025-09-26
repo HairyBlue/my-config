@@ -1,0 +1,35 @@
+{
+   "$schema": "https://json.schemastore.org/tsconfig",
+   "display": "Base JSDoc",
+
+   "compilerOptions": {
+     "allowJs": true,
+     "checkJs": true,
+     "maxNodeModuleJsDepth": 0,
+
+     "noEmit": true,
+     "removeComments": true,
+     "stripInternal": true,
+     "sourceMap": true,
+
+     "strict": true,
+     "noImplicitAny": false,
+     "noUnusedLocals": false,
+     "noUnusedParameters": false,
+     "strictNullChecks": false,
+     "noImplicitThis": true,
+
+     "exactOptionalPropertyTypes": true,
+     "noFallthroughCasesInSwitch": true,
+     "noImplicitOverride": true,
+     "noPropertyAccessFromIndexSignature": true,
+     "noUncheckedIndexedAccess": true,
+     "noUncheckedSideEffectImports": true,
+
+     "resolveJsonModule": true,
+     "esModuleInterop": true,
+     "forceConsistentCasingInFileNames": true,
+     
+     "skipLibCheck": true
+   }
+ }

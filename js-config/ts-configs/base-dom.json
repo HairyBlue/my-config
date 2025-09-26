@@ -1,0 +1,32 @@
+{
+   "$schema": "https://json.schemastore.org/tsconfig",
+   "display": "Next.js",
+   "_version": "2.0.0",
+ 
+   "compilerOptions": {
+     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+     "lib": ["dom", "dom.iterable", "esnext"],
+     "module": "esnext",
+     "target": "ES2022",
+     "moduleResolution": "bundler",
+
+     "allowJs": true,
+     "checkJs": true,
+
+     "strict": true,
+
+     "noEmit": true,
+     "removeComments": true,
+     "stripInternal": true,
+     "sourceMap": true,
+   
+     "isolatedModules": true,
+     "incremental": true,
+
+     "resolveJsonModule": true,
+     "esModuleInterop": true,
+     "forceConsistentCasingInFileNames": true,
+     
+     "skipLibCheck": true,
+   }
+ }
