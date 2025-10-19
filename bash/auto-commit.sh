@@ -44,7 +44,7 @@ function commit() {
       exitf "Should provide commit message. Do --help"
    fi
 
-   if [ ! "$specificFile"]; then
+   if [ ! "$specificFile" ]; then
       print_info "You didn't provide specific files on third argument. This will do 'git add .' [Yes/no]"
       userInput
    fi
