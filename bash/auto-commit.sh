@@ -111,7 +111,7 @@ fi
 
 if [ "$help" == "--help" ]; then
   echo "Usage:"
-  echo "  ./auto-commit.sh --semantic=<type> \"Your commit message here\""
+  echo "  ./auto-commit.sh --s=<type> \"Your commit message here\""
   echo ""
   echo "Semantic commit types:"
   echo "  default      Plain commit message without emoji or type"
@@ -127,10 +127,10 @@ if [ "$help" == "--help" ]; then
   echo "  perf         ⚡  Performance improvements"
   echo ""
   echo "Example:"
-  echo "  ./auto-commit.sh --semantic=feat \"add dark mode toggle\""
+  echo "  ./auto-commit.sh --s=feat \"add dark mode toggle\""
   echo ""
   echo "Example with specific file/s:"
-  echo "  ./auto-commit.sh --semantic=feat \"add dark mode toggle\" \"file1.ts\" \"file2.ts\""
+  echo "  ./auto-commit.sh --s=feat \"add dark mode toggle\" \"file1.ts\" \"file2.ts\""
   exit 0
 fi
 
